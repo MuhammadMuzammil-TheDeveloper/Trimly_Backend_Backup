@@ -1,0 +1,23 @@
+POST http://localhost:5000/auth/login
+
+POST http://localhost:5000/auth/register
+
+PETCH http://localhost:5000/api/customer/me/profile-photo
+
+GET http://localhost:5000/api/customer/salons
+
+GET /api/customer/salons/search?q=gulshan
+
+GET /api/customer/salons/filter/area?area=Gulshan-e-Iqbal
+
+GET http://localhost:5000/api/customer/salons/6adafcfadea025416f6c6605
+
+{
+
+  "email": "muzammilCheck@gmail.com",
+  "password": "123456789"
+}
+
+Test Login:
+Email: testcustomer@trimly.com
+Password: Test@123
